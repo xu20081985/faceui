@@ -1,0 +1,38 @@
+---- MAIN_APPID Matches (37 in 25 files) ----
+Appid.h:#define MAIN_APPID					0x10000
+CAppAbout.cpp (ui):                    DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+CAppBK.cpp (ui):                    DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+CAppClock.cpp (ui):                    DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+CAppClock.cpp (ui):                DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+CAppLightCfg.cpp (ui):                    DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+CAppLightInit.cpp (ui):                    DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+CAppLockTime.cpp (ui):                    DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+CAppMain.cpp (ui):                            DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, m_nPage + 1, 0);
+CAppMain.cpp (ui):                            DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+CAppMain.cpp (ui):                            DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, m_nPage - 1, 0);
+CAppMain.cpp (ui):                            DPPostMessage(MSG_START_APP, MAIN_APPID, m_lPage - 1, 0);
+CAppMain.cpp (ui):                        DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, m_nPage, 0);
+CAppMechine.cpp (ui):                    DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+CAppMusic.cpp (ui):                    DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, onPage, 0);
+CAppMusic.cpp (ui):                    DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, onPage, 0);
+CAppPrjReport.cpp (ui):                    DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+CAppPrjReset.cpp (ui):                    DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+CAppPrjSetDate.cpp (ui):                    DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+CAppPrjSetPwd.cpp (ui):                    DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+CAppPrjSetTimer.cpp (ui):                    DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+CAppProject.cpp (ui):                    DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+CAppProject.cpp (ui):                    DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+CAppPwdInput.cpp (ui):                    DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+CAppPwdInput.cpp (ui):                    DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+CAppScene.cpp (ui):                    DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+CAppScene.cpp (ui):                DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+CAppshow.cpp (ui):                    DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+CAppShowBright.cpp (ui):                    DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+CAppTimerEdit.cpp (ui):                    DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+CAppTimerTime.cpp (ui):                    DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+CAppTimerWeek.cpp (ui):                    DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+ServiceSmart.cpp (common):        DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+ServiceSmart.cpp (common):	DPPostMessage(MSG_PRIVATE, MAIN_APPID, MSG_SMART_UPDATE, 0);
+YJJ-SWS3.cpp:            DPPostMessage(MSG_START_FROM_ROOT, MAIN_APPID, 0, 0);
+YJJ-SWS3.cpp:        case MAIN_APPID:                        	 // 主菜单
+YJJ-SWS3.cpp:    DPPostMessage(MSG_START_APP, MAIN_APPID, 0, 0);	// 创建主菜单

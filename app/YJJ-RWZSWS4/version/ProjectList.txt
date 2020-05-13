@@ -1,0 +1,104 @@
+一:项目名称：心动4寸液晶面板YJJ-RWZSWS4（开模）
+
+二:项目源代码主要文件说明:
+
+1.主目录
+YJJ-SWS3.cpp				主程序入口文件(文件名暂未修改)
+
+2.ui/
+CAppMain.cpp				主菜单界面
+CAppAbout.cpp				关于界面
+CAppAirC.cpp				空调界面
+CAppBK.cpp					背景界面
+CAppClock.cpp				屏保界面
+CAppCurtain.cpp				窗帘界面
+CAppDimmer.cpp				调光界面
+CAppHeat.cpp				地暖界面
+CAppirair.cpp				红外空调界面
+CAppLight.cpp				普通灯光界面
+CAppLightCfg.cpp			灯光配置界面
+CAppLightInit.cpp			灯光初始化界面
+CAppLightStudy.cpp			灯光学习界面
+CAppLockTime.cpp			锁屏时间界面
+CAppMechine.cpp				本机设置界面
+CAppMusic.cpp				音乐界面
+CAppOutlet.cpp				插座界面
+CAppPrjReport.cpp			上报界面
+CAppPrjReset.cpp			恢复出厂界面
+CAppPrjSetDate.cpp			设置时间界面
+CAppPrjSetPwd.cpp			设置密码界面
+CAppPrjSetTimer.cpp			设置定时界面
+CAppPrjSetUI.cpp			DIY图标界面
+CAppProject.cpp				设置界面
+CAppPwdInput.cpp			密码输入界面
+CAppScene.cpp				情景界面
+CAppshow.cpp				显示界面
+CAppShowBright.cpp			亮度界面
+CAppTimerAction.cpp			定时动作界面
+CAppTimerDevice.cpp			定时设备界面
+CAppTimerEdit.cpp			定时编辑界面
+CAppTimerObject.cpp			定时对象界面
+CAppTimerSelect.cpp			定时选择界面
+CAppTimerTime.cpp			定时时间界面
+CAppTimerWeek.cpp			定时日期界面
+CAppTip.cpp					学习列表界面
+CAppTV.cpp					红外电视界面
+
+3.ui/cctrl/
+CAppBase.cpp 				界面图形基类
+CCtrlBase.cpp				控件基类
+CCtrlButton.cpp				控件显示
+CCtrlClock.cpp				时钟显示
+CCtrlEditBox.cpp			编辑框显示
+CCtrlProgress.cpp			进度条显示
+CCtrlStatic.cpp				静态图形显示
+CCtrlText.cpp				文本显示
+CCtrlTime.cpp				时间显示
+
+4.dpgraphic/
+dpgraphic.cpp				图形处理类
+dptext.cpp					文本处理
+jpegdec.cpp					jpeg解码
+pngimage.cpp				png解码
+freetype/					矢量字库
+
+5.dpbaseLinux/
+dpcom.cpp					串口功能
+dpdevice.cpp				GPIO控制
+dpfile.cpp					文件处理
+dplib.cpp					触摸逻辑
+dptime.cpp					时间接口
+
+6.common/
+DBConfig.cpp				全局配置信息
+DBSet.cpp					系统配置信息
+DBSmartDev.cpp				家居设备配置信息
+dpdebug.cpp					DEBUG文件
+inputtp.cpp					触摸文件
+loadstring.cpp				加载字符串功能
+roomlib.cpp					通用接口文件
+ServiceFile.cpp				文件服务文件
+ServiceSmart.cpp			家居服务文件
+SmartCom.cpp				家居串口服务
+SmartConfig.cpp				家居图片配置文件
+SmartTimer.cpp				家居定时文件
+systemmsg.cpp				系统线程通信队列
+zigbee.cpp					ZIGBEE初始化文件
+
+7.version/
+ProjectList.txt				版本文件说明
+ProjectVersion.txt			版本记录文件
+
+
+
+
+
+
+
+
+
+
+
+
+
+

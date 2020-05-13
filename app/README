@@ -1,0 +1,5 @@
+快捷编译和打包命令
+
+make;make dd
+
+打包文件在相对于的pack/output目录下

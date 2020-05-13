@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{806ffe2b-a38c-4808-82de-fd7233ce0238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dpgraphic">
+      <UniqueIdentifier>{7438527a-c84b-47b1-9c92-ea32c927fba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dplinux">
+      <UniqueIdentifier>{96ef3781-18cb-4de0-8f2d-b64185af767e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{f0942963-0a20-43bf-a9e4-bea4558f5581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{efb316fb-2e33-4f7f-a62f-06b96a01e179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dpgraphic\freetype">
+      <UniqueIdentifier>{b81dae69-dd23-4598-8fba-f48965186e90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dpgraphic\freetype\config">
+      <UniqueIdentifier>{ea5e3f55-9428-4907-9641-12253788aff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dpgraphic\freetype\internal">
+      <UniqueIdentifier>{ceccabbd-c100-48a6-8326-0d056d8bd858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dpgraphic\freetype\internal\services">
+      <UniqueIdentifier>{b130dadb-a989-4798-b477-9437376c7b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\cctrl">
+      <UniqueIdentifier>{7bdbed90-ed85-46d5-884b-8ab8fae4c91c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\appdef.h" />
+    <ClInclude Include="..\..\..\appid.h" />
+    <ClInclude Include="..\..\..\dpgraphic\dptext.h">
+      <Filter>dpgraphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\Filters.h">
+      <Filter>dpgraphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\ft2build.h">
+      <Filter>dpgraphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\jconfig.h">
+      <Filter>dpgraphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\jmorecfg.h">
+      <Filter>dpgraphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\jpeglib.h">
+      <Filter>dpgraphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\png.h">
+      <Filter>dpgraphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\pngconf.h">
+      <Filter>dpgraphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\pngimage.h">
+      <Filter>dpgraphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\pnginfo.h">
+      <Filter>dpgraphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\pnglibconf.h">
+      <Filter>dpgraphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\pngstruct.h">
+      <Filter>dpgraphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\scalefilter.h">
+      <Filter>dpgraphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\freetype.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftadvanc.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftbbox.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftbdf.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftbitmap.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftcache.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftchapters.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftcid.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\fterrdef.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\fterrors.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftgasp.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftglyph.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftgxval.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftgzip.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftimage.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftincrem.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftlcdfil.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftlist.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftlzw.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftmac.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftmm.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftmodapi.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftmoderr.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftotval.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftoutln.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftpfr.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftrender.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftsizes.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftsnames.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftstroke.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftsynth.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftsystem.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\fttrigon.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\fttypes.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftwinfnt.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftxf86.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\t1tables.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ttnameid.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\tttables.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\tttags.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ttunpat.h">
+      <Filter>dpgraphic\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\config\ftconfig.h">
+      <Filter>dpgraphic\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\config\ftheader.h">
+      <Filter>dpgraphic\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\config\ftmodule.h">
+      <Filter>dpgraphic\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\config\ftoption.h">
+      <Filter>dpgraphic\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\config\ftstdlib.h">
+      <Filter>dpgraphic\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\autohint.h">
+      <Filter>dpgraphic\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\ftcalc.h">
+      <Filter>dpgraphic\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\ftdebug.h">
+      <Filter>dpgraphic\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\ftdriver.h">
+      <Filter>dpgraphic\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\ftgloadr.h">
+      <Filter>dpgraphic\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\ftmemory.h">
+      <Filter>dpgraphic\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\ftobjs.h">
+      <Filter>dpgraphic\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\ftpic.h">
+      <Filter>dpgraphic\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\ftrfork.h">
+      <Filter>dpgraphic\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\ftserv.h">
+      <Filter>dpgraphic\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\ftstream.h">
+      <Filter>dpgraphic\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\fttrace.h">
+      <Filter>dpgraphic\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\ftvalid.h">
+      <Filter>dpgraphic\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\internal.h">
+      <Filter>dpgraphic\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\pcftypes.h">
+      <Filter>dpgraphic\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\psaux.h">
+      <Filter>dpgraphic\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\pshints.h">
+      <Filter>dpgraphic\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\sfnt.h">
+      <Filter>dpgraphic\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\t1types.h">
+      <Filter>dpgraphic\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\tttypes.h">
+      <Filter>dpgraphic\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svbdf.h">
+      <Filter>dpgraphic\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svcid.h">
+      <Filter>dpgraphic\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svgldict.h">
+      <Filter>dpgraphic\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svgxval.h">
+      <Filter>dpgraphic\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svkern.h">
+      <Filter>dpgraphic\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svmm.h">
+      <Filter>dpgraphic\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svotval.h">
+      <Filter>dpgraphic\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svpfr.h">
+      <Filter>dpgraphic\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svpostnm.h">
+      <Filter>dpgraphic\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svpscmap.h">
+      <Filter>dpgraphic\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svpsinfo.h">
+      <Filter>dpgraphic\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svsfnt.h">
+      <Filter>dpgraphic\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svttcmap.h">
+      <Filter>dpgraphic\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svtteng.h">
+      <Filter>dpgraphic\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svttglyf.h">
+      <Filter>dpgraphic\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svwinfnt.h">
+      <Filter>dpgraphic\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svxf86nm.h">
+      <Filter>dpgraphic\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\database.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\DBConfig.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\dpaudio.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\DPAutoTest.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\dpcom.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\dpcommmsg.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\dpdebug.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\dpdef_ce.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\dpdef_linux.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\DPFilterSilk.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\dpgpio.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\dpgraphic.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\DPHttpSocket.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\dpplatform.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\dpsound.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\dpsyncmsg.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\dptcpip.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\dpvideo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\dpwifi.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\dpxmlmessage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\DPXmlParse.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\input.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\ipfunc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\list.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\LoadPinyin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\loadstring.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\OnVif.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\roomlib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\server.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\SmartConfig.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\spi.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\systemmsg.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\zconf.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\zlib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ui\cctrl\CAppBase.h">
+      <Filter>ui\cctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlBase.h">
+      <Filter>ui\cctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlButton.h">
+      <Filter>ui\cctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlClock.h">
+      <Filter>ui\cctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlEditBox.h">
+      <Filter>ui\cctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlEmpty.h">
+      <Filter>ui\cctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlEnKeyboard.h">
+      <Filter>ui\cctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlImeInput.h">
+      <Filter>ui\cctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlKeyboard.h">
+      <Filter>ui\cctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlListView.h">
+      <Filter>ui\cctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlMButton.h">
+      <Filter>ui\cctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlMKeyboard.h">
+      <Filter>ui\cctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlModules.h">
+      <Filter>ui\cctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlMTable.h">
+      <Filter>ui\cctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlProgress.h">
+      <Filter>ui\cctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlStatic.h">
+      <Filter>ui\cctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlTable.h">
+      <Filter>ui\cctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlText.h">
+      <Filter>ui\cctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlTime.h">
+      <Filter>ui\cctrl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\YJJ-SWS3.cpp" />
+    <ClCompile Include="..\..\..\common\DBConfig.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\DBSet.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\DBSmartDev.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\dpdebug.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\inputkb.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\inputtp.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\LoadPinyin.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\loadstring.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\roomlib.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\ServiceFile.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\ServicePC.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\SmartConfig.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\systemmsg.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dpgraphic\dpgraphic.cpp">
+      <Filter>dpgraphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dpgraphic\dptext.cpp">
+      <Filter>dpgraphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dpgraphic\jpegdec.cpp">
+      <Filter>dpgraphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dpgraphic\pngimage.cpp">
+      <Filter>dpgraphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dpbaseLinux\dpbase.cpp">
+      <Filter>dplinux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dpbaseLinux\dpdevice.cpp">
+      <Filter>dplinux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dpbaseLinux\dpfile.cpp">
+      <Filter>dplinux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dpbaseLinux\dplib.cpp">
+      <Filter>dplinux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dpbaseLinux\dptcpip.cpp">
+      <Filter>dplinux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dpbaseLinux\dptime.cpp">
+      <Filter>dplinux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ui\CAppCurtain.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ui\CAppDimmer.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ui\CAppLight.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ui\CAppMain.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ui\CAppTemplate.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ui\cctrl\CAppBase.cpp">
+      <Filter>ui\cctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlBase.cpp">
+      <Filter>ui\cctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlButton.cpp">
+      <Filter>ui\cctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlClock.cpp">
+      <Filter>ui\cctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlEditBox.cpp">
+      <Filter>ui\cctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlEmpty.cpp">
+      <Filter>ui\cctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlEnKeyboard.cpp">
+      <Filter>ui\cctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlImeInput.cpp">
+      <Filter>ui\cctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlKeyboard.cpp">
+      <Filter>ui\cctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlListView.cpp">
+      <Filter>ui\cctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlMButton.cpp">
+      <Filter>ui\cctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlMKeyboard.cpp">
+      <Filter>ui\cctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlMTable.cpp">
+      <Filter>ui\cctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlProgress.cpp">
+      <Filter>ui\cctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlStatic.cpp">
+      <Filter>ui\cctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlTable.cpp">
+      <Filter>ui\cctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlText.cpp">
+      <Filter>ui\cctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlTime.cpp">
+      <Filter>ui\cctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dpbaseLinux\dpcom.cpp">
+      <Filter>dplinux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\ServiceSmart.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

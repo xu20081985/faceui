@@ -1,0 +1,10 @@
+---- m_pDu Matches (9 in 3 files) ----
+CAppAirC.cpp (x:\yjj-sws3_1\ui):		m_pDu->Show(STATUS_NORMAL);
+CAppAirC.cpp (x:\yjj-sws3_1\ui):		m_pDu       = (CDPButton *)GetCtrlByName("btn_dangqiandu", &m_idDu);
+CAppAirC.cpp (x:\yjj-sws3_1\ui):	CDPButton* m_pDu;
+CAppHeat.cpp (x:\yjj-sws3_1\ui):		m_pDu->Show(STATUS_NORMAL);
+CAppHeat.cpp (x:\yjj-sws3_1\ui):		m_pDu  = (CDPButton *)GetCtrlByName("btn_shezhidu", &m_idDu);
+CAppHeat.cpp (x:\yjj-sws3_1\ui):	CDPButton* m_pDu;
+CAppNewWind.cpp (x:\yjj-sws3_1\ui):		//m_pDu->Show(STATUS_NORMAL);
+CAppNewWind.cpp (x:\yjj-sws3_1\ui):		//m_pDu  = (CDPButton *)GetCtrlByName("air_denwei", &m_idDu);
+CAppNewWind.cpp (x:\yjj-sws3_1\ui):	//CDPButton* m_pDu;

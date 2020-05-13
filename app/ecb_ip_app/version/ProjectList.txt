@@ -1,0 +1,56 @@
+一:项目名称：灵动液晶面板ECB-IP-901F
+
+二:项目源代码主要文件说明:
+
+1.wrt_main/
+
+include/					头文件
+src/
+wrt_main.cpp				主程序入口				
+wrt_msghandle.cpp			消息处理
+wrt_network.cpp				网络处理
+wrt_MsgQueue.cpp			消息队列
+wrt_ntp.cpp					时间同步
+wrt_serial.cpp				串口功能
+wrt_gpio.cpp				GPIO控制
+wrt_devHandle.cpp			家居协议处理	
+wrt_common.cpp				通用接口
+wrt_cfg.cpp					配置文件
+wrt_broadcast.cpp			广播服务
+threadPool.cpp				线程池
+sqlite3.c					数据库
+sock.cpp					网络连接管理
+queue.c						线程队列
+
+2.wrt_lib/
+
+include/					头文件
+lib/						网关使用的开源库
+
+3.wrt_cloud/
+
+include/					头文件
+src/						云端登录的数据结构
+
+4.wrt_smart/
+
+include/					头文件
+src/						云端登录调用
+
+5.version/
+ProjectList.txt				版本文件说明
+ProjectVersion.txt			版本记录文件
+
+
+
+
+
+
+
+
+
+
+
+
+
+

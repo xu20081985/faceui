@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{156ce1d3-9037-45b9-9934-70bb2954a920}</ProjectGuid>
+    <Keyword>Linux</Keyword>
+    <RootNamespace>YJJ_SWS3</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
+    <LinuxProjectType>{FC1A4D80-50E9-41DA-9192-61C0DBAA00D2}</LinuxProjectType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <RemoteCCompileToolExe>/opt/X3/arm_toolchain/external-toolchain/bin/arm-none-linux-gnueabi-g++</RemoteCCompileToolExe>
+    <RemoteCppCompileToolExe>/opt/X3/arm_toolchain/external-toolchain/bin/arm-none-linux-gnueabi-g++</RemoteCppCompileToolExe>
+    <RemoteLdToolExe>/opt/X3/arm_toolchain/external-toolchain/bin/arm-none-linux-gnueabi-g++</RemoteLdToolExe>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\appdef.h" />
+    <ClInclude Include="..\..\..\appid.h" />
+    <ClInclude Include="..\..\..\dpgraphic\dptext.h" />
+    <ClInclude Include="..\..\..\dpgraphic\Filters.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\config\ftconfig.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\config\ftheader.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\config\ftmodule.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\config\ftoption.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\config\ftstdlib.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\freetype.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftadvanc.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftbbox.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftbdf.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftbitmap.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftcache.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftchapters.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftcid.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\fterrdef.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\fterrors.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftgasp.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftglyph.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftgxval.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftgzip.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftimage.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftincrem.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftlcdfil.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftlist.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftlzw.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftmac.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftmm.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftmodapi.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftmoderr.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftotval.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftoutln.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftpfr.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftrender.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftsizes.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftsnames.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftstroke.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftsynth.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftsystem.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\fttrigon.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\fttypes.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftwinfnt.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ftxf86.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\autohint.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\ftcalc.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\ftdebug.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\ftdriver.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\ftgloadr.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\ftmemory.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\ftobjs.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\ftpic.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\ftrfork.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\ftserv.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\ftstream.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\fttrace.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\ftvalid.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\internal.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\pcftypes.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\psaux.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\pshints.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svbdf.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svcid.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svgldict.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svgxval.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svkern.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svmm.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svotval.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svpfr.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svpostnm.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svpscmap.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svpsinfo.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svsfnt.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svttcmap.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svtteng.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svttglyf.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svwinfnt.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\services\svxf86nm.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\sfnt.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\t1types.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\internal\tttypes.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\t1tables.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ttnameid.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\tttables.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\tttags.h" />
+    <ClInclude Include="..\..\..\dpgraphic\freetype\ttunpat.h" />
+    <ClInclude Include="..\..\..\dpgraphic\ft2build.h" />
+    <ClInclude Include="..\..\..\dpgraphic\jconfig.h" />
+    <ClInclude Include="..\..\..\dpgraphic\jmorecfg.h" />
+    <ClInclude Include="..\..\..\dpgraphic\jpeglib.h" />
+    <ClInclude Include="..\..\..\dpgraphic\png.h" />
+    <ClInclude Include="..\..\..\dpgraphic\pngconf.h" />
+    <ClInclude Include="..\..\..\dpgraphic\pngimage.h" />
+    <ClInclude Include="..\..\..\dpgraphic\pnginfo.h" />
+    <ClInclude Include="..\..\..\dpgraphic\pnglibconf.h" />
+    <ClInclude Include="..\..\..\dpgraphic\pngstruct.h" />
+    <ClInclude Include="..\..\..\dpgraphic\scalefilter.h" />
+    <ClInclude Include="..\..\..\include\config.h" />
+    <ClInclude Include="..\..\..\include\database.h" />
+    <ClInclude Include="..\..\..\include\DBConfig.h" />
+    <ClInclude Include="..\..\..\include\dpaudio.h" />
+    <ClInclude Include="..\..\..\include\DPAutoTest.h" />
+    <ClInclude Include="..\..\..\include\dpcom.h" />
+    <ClInclude Include="..\..\..\include\dpcommmsg.h" />
+    <ClInclude Include="..\..\..\include\dpdebug.h" />
+    <ClInclude Include="..\..\..\include\dpdef_ce.h" />
+    <ClInclude Include="..\..\..\include\dpdef_linux.h" />
+    <ClInclude Include="..\..\..\include\DPFilterSilk.h" />
+    <ClInclude Include="..\..\..\include\dpgpio.h" />
+    <ClInclude Include="..\..\..\include\dpgraphic.h" />
+    <ClInclude Include="..\..\..\include\DPHttpSocket.h" />
+    <ClInclude Include="..\..\..\include\dpplatform.h" />
+    <ClInclude Include="..\..\..\include\dpsound.h" />
+    <ClInclude Include="..\..\..\include\dpsyncmsg.h" />
+    <ClInclude Include="..\..\..\include\dptcpip.h" />
+    <ClInclude Include="..\..\..\include\dpvideo.h" />
+    <ClInclude Include="..\..\..\include\dpwifi.h" />
+    <ClInclude Include="..\..\..\include\dpxmlmessage.h" />
+    <ClInclude Include="..\..\..\include\DPXmlParse.h" />
+    <ClInclude Include="..\..\..\include\input.h" />
+    <ClInclude Include="..\..\..\include\ipfunc.h" />
+    <ClInclude Include="..\..\..\include\list.h" />
+    <ClInclude Include="..\..\..\include\LoadPinyin.h" />
+    <ClInclude Include="..\..\..\include\loadstring.h" />
+    <ClInclude Include="..\..\..\include\OnVif.h" />
+    <ClInclude Include="..\..\..\include\roomlib.h" />
+    <ClInclude Include="..\..\..\include\server.h" />
+    <ClInclude Include="..\..\..\include\SmartConfig.h" />
+    <ClInclude Include="..\..\..\include\spi.h" />
+    <ClInclude Include="..\..\..\include\systemmsg.h" />
+    <ClInclude Include="..\..\..\include\zconf.h" />
+    <ClInclude Include="..\..\..\include\zlib.h" />
+    <ClInclude Include="..\..\..\ui\cctrl\CAppBase.h" />
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlBase.h" />
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlButton.h" />
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlClock.h" />
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlEditBox.h" />
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlEmpty.h" />
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlEnKeyboard.h" />
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlImeInput.h" />
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlKeyboard.h" />
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlListView.h" />
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlMButton.h" />
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlMKeyboard.h" />
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlModules.h" />
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlMTable.h" />
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlProgress.h" />
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlStatic.h" />
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlTable.h" />
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlText.h" />
+    <ClInclude Include="..\..\..\ui\cctrl\CCtrlTime.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\common\DBConfig.cpp" />
+    <ClCompile Include="..\..\..\common\DBSet.cpp" />
+    <ClCompile Include="..\..\..\common\DBSmartDev.cpp" />
+    <ClCompile Include="..\..\..\common\dpdebug.cpp" />
+    <ClCompile Include="..\..\..\common\inputkb.cpp" />
+    <ClCompile Include="..\..\..\common\inputtp.cpp" />
+    <ClCompile Include="..\..\..\common\LoadPinyin.cpp" />
+    <ClCompile Include="..\..\..\common\loadstring.cpp" />
+    <ClCompile Include="..\..\..\common\roomlib.cpp" />
+    <ClCompile Include="..\..\..\common\ServiceFile.cpp" />
+    <ClCompile Include="..\..\..\common\ServicePC.cpp" />
+    <ClCompile Include="..\..\..\common\ServiceSmart.cpp" />
+    <ClCompile Include="..\..\..\common\SmartConfig.cpp" />
+    <ClCompile Include="..\..\..\common\systemmsg.cpp" />
+    <ClCompile Include="..\..\..\dpbaseLinux\dpbase.cpp" />
+    <ClCompile Include="..\..\..\dpbaseLinux\dpcom.cpp" />
+    <ClCompile Include="..\..\..\dpbaseLinux\dpdevice.cpp" />
+    <ClCompile Include="..\..\..\dpbaseLinux\dpfile.cpp" />
+    <ClCompile Include="..\..\..\dpbaseLinux\dplib.cpp" />
+    <ClCompile Include="..\..\..\dpbaseLinux\dptcpip.cpp" />
+    <ClCompile Include="..\..\..\dpbaseLinux\dptime.cpp" />
+    <ClCompile Include="..\..\..\dpgraphic\dpgraphic.cpp" />
+    <ClCompile Include="..\..\..\dpgraphic\dptext.cpp" />
+    <ClCompile Include="..\..\..\dpgraphic\jpegdec.cpp" />
+    <ClCompile Include="..\..\..\dpgraphic\pngimage.cpp" />
+    <ClCompile Include="..\..\..\ui\CAppCurtain.cpp" />
+    <ClCompile Include="..\..\..\ui\CAppDimmer.cpp" />
+    <ClCompile Include="..\..\..\ui\CAppLight.cpp" />
+    <ClCompile Include="..\..\..\ui\CAppMain.cpp" />
+    <ClCompile Include="..\..\..\ui\CAppTemplate.cpp" />
+    <ClCompile Include="..\..\..\ui\cctrl\CAppBase.cpp" />
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlBase.cpp" />
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlButton.cpp" />
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlClock.cpp" />
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlEditBox.cpp" />
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlEmpty.cpp" />
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlEnKeyboard.cpp" />
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlImeInput.cpp" />
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlKeyboard.cpp" />
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlListView.cpp" />
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlMButton.cpp" />
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlMKeyboard.cpp" />
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlMTable.cpp" />
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlProgress.cpp" />
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlStatic.cpp" />
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlTable.cpp" />
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlText.cpp" />
+    <ClCompile Include="..\..\..\ui\cctrl\CCtrlTime.cpp" />
+    <ClCompile Include="..\..\..\YJJ-SWS3.cpp" />
+  </ItemGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <CLanguageStandard>Default</CLanguageStandard>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <CppLanguageStandard>Default</CppLanguageStandard>
+      <PreprocessorDefinitions>DPLINUX</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>/home/wenym/projects/YJJ-SWS3;/home/wenym/projects/YJJ-SWS3/include;/home/wenym/projects/YJJ-SWS3/dpgraphic;/home/wenym/projects/YJJ-SWS3/ui/cctrl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>/home/wenym/projects/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LibraryDependencies>pthread;rt;freetype;jpeg;png16;z;%(LibraryDependencies)</LibraryDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>
